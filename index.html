@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			{
+				margin: 0;
+				padding: 0;
+			}
+			.photo{
+				
+				height: 100px;
+				
+				display: flex;
+			}
+			
+			.menu{
+				background-color:  darkorange;
+				list-style: none;
+				padding: 0;
+				margin: 0 ;
+				height: 42px;
+				display: flex;
+				
+			}
+			.dao{
+				width: 200px;
+				height: 42px;
+			}
+			.menu li a{
+				text-decoration: none;
+				color: white;
+				line-height: 42px;
+				font-size: x-large ;
+				font-family: "楷体";
+				font-weight: bold;
+				
+			}
+			.dao a:hover{
+				font-size: xx-large;
+				color: crimson;
+			}
+			.wenzi{
+				width: 800px;
+				height: 42px;
+				line-height: 42px;
+				color: red;
+				
+			}
+			.yifu{
+				display: flex;
+				margin-left: 20px;
+				margin-right: 20px;
+				margin-top: 10px;
+				
+			}
+			.box{
+				width: 235px;
+				height: 370px;
+				
+				margin-left: 15px;
+				
+				border: 1px solid black;
+			}
+			@media only screen and (min-width:600px ) {
+				.box{
+					width: 235px;
+					height: 370px;
+					margin-left: 15px;
+					border: 1px solid black;
+					overflow: hidden;
+				}
+				.yifu{
+					display: flex;
+				    margin-left: 20px;
+				    margin-right: 20px;
+				    margin-top: 10px;
+				    flex-wrap: nowrap;
+				}
+				
+			}
+			@media only screen and (max-width:600px ) {
+				.box{
+					width: 600px;
+					height: 200px;
+					margin-left: 15px;
+					border: 1px solid black;
+					
+				}
+				.box1{
+					width: 250px;
+					height: 200px;
+					float: left;
+					overflow: hidden;
+				}
+				.box2{
+					width: 200px;
+					height: 180px;
+					float: left;
+					overflow: hidden;
+				}
+				.yifu{
+					display: flex;
+				    margin-left: 20px;
+				    margin-right: 20px;
+				    margin-top: 10px;
+				    flex-wrap: wrap;
+				}
+			}
+			.box a{
+				text-decoration: none;
+				color: black;
+			}
+			.box a:hover{
+				color: red;
+			}
+			.box a:active{
+				color: #FF8C00;
+			}
+			
+		</style>
+	</head>
+	<body>
+	    <div class="photo">
+	    	<img src="img/QQ图片20171029180231_副本.jpg"height="100px"width="300px" />
+	    </div>
+	    
+	    <ul class="menu">
+	    	<li class="dao"><a href="#">最新上架</a></li>
+	    	<li class="dao"><a href="#">全部宝贝</a></li>
+	    	<li class="dao"><a href="#">在线客服</a></li>
+	    	<li class="wenzi">（商品价格太过于便宜，本店商品全已售罄╮(╯▽╰)╭）</li>
+	    </ul>
+	    <div class="yifu">
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    		
+	    		
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食2.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食3.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食4.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食5.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+	    <div class="yifu">
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食11.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    		
+	    		
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食12.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食13.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食14.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食15.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+	     <div class="yifu">
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食21.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥111.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    		
+	    		
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食22.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥111.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食23.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥111.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食24.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥111.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食25.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥111.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+	     <div class="yifu">
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食31.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    		
+	    		
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食32.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食33.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食34.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	<div class="box">
+	    		<div class="box1">
+	    			<img src="img/零食35.jpg"width="235px"height="200px" />
+	    		</div>
+	    		<div class="box2">
+	    			<h1 style="color: red;">¥11.11</h1>
+	    		    <h2><a href="#">零食大放送</a></h2>
+	    		    <h3><a href="#">太便宜了，查看详情>></a></h3>
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+	    <footer>
+	    	<h2 align="center">如有需要，请联系：</h2>
+	        <h3 align="center">QQ:123456789</h3>
+	    	<h3 align="center">TEL:12345678901</h3>
+            <h3 align="center">(幸运的话，你是可以联系到的)</h3>
+	    </footer>
+	</body>
+	
+</html>
